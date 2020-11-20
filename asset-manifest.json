@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Appworks-mid-term/static/css/main.208648b1.chunk.css",
-    "main.js": "/Appworks-mid-term/static/js/main.08432005.chunk.js",
-    "main.js.map": "/Appworks-mid-term/static/js/main.08432005.chunk.js.map",
+    "main.css": "/Appworks-mid-term/static/css/main.85fa4150.chunk.css",
+    "main.js": "/Appworks-mid-term/static/js/main.3d1a52f8.chunk.js",
+    "main.js.map": "/Appworks-mid-term/static/js/main.3d1a52f8.chunk.js.map",
     "runtime-main.js": "/Appworks-mid-term/static/js/runtime-main.9ceb8f1d.js",
     "runtime-main.js.map": "/Appworks-mid-term/static/js/runtime-main.9ceb8f1d.js.map",
     "static/js/2.8fd0feb5.chunk.js": "/Appworks-mid-term/static/js/2.8fd0feb5.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.21cc08ed.chunk.js": "/Appworks-mid-term/static/js/3.21cc08ed.chunk.js",
     "static/js/3.21cc08ed.chunk.js.map": "/Appworks-mid-term/static/js/3.21cc08ed.chunk.js.map",
     "index.html": "/Appworks-mid-term/index.html",
-    "static/css/main.208648b1.chunk.css.map": "/Appworks-mid-term/static/css/main.208648b1.chunk.css.map",
+    "static/css/main.85fa4150.chunk.css.map": "/Appworks-mid-term/static/css/main.85fa4150.chunk.css.map",
     "static/js/2.8fd0feb5.chunk.js.LICENSE.txt": "/Appworks-mid-term/static/js/2.8fd0feb5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9ceb8f1d.js",
     "static/js/2.8fd0feb5.chunk.js",
-    "static/css/main.208648b1.chunk.css",
-    "static/js/main.08432005.chunk.js"
+    "static/css/main.85fa4150.chunk.css",
+    "static/js/main.3d1a52f8.chunk.js"
   ]
 }
