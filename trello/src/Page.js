@@ -70,7 +70,11 @@ class Page extends React.Component {
     if (this.state.newText !== "") {
       e.preventDefault();
       this.props.editTheList(this.state.index, this.state.newText);
-      this.setState({ inputView: false, name: this.state.newText });
+      this.setState({
+        inputView: false,
+        name: this.state.newText,
+        newText: "",
+      });
     }
   };
 
@@ -108,6 +112,11 @@ class Page extends React.Component {
   render() {
     return (
       <div className="order">
+        <div className="deleteDiv">
+          <button onClick={this.hadleDeleteList} className="deleteIcon">
+            x
+          </button>
+        </div>
         <div
           className="nameBox"
           style={{ display: this.state.inputView ? "none" : "flex" }}
@@ -202,7 +211,6 @@ class Page extends React.Component {
             <button onClick={this.handleCancel}>X</button>
           </div>
         </div>
-        <button onClick={this.hadleDeleteList}>Delete This List</button>
       </div>
     );
   }

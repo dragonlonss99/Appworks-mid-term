@@ -29,7 +29,11 @@ class Card extends React.Component {
     if (this.state.newText !== "") {
       e.preventDefault();
       this.props.editTheCard(this.state.index, this.state.newText);
-      this.setState({ inputView: false, name: this.state.newText });
+      this.setState({
+        inputView: false,
+        name: this.state.newText,
+        newText: "",
+      });
     }
   };
 
@@ -44,6 +48,11 @@ class Card extends React.Component {
   render() {
     return (
       <div className="card">
+        <div className="deleteDiv">
+          <button onClick={this.hadleDeleteCard} className="deleteIcon">
+            x
+          </button>
+        </div>
         <div
           className="nameBox"
           style={{ display: this.state.inputView ? "none" : "flex" }}
@@ -65,9 +74,6 @@ class Card extends React.Component {
           ></input>
           <button onClick={this.hadleNewName}>save</button>
           <button onClick={this.turnToName}>cacel</button>
-        </div>
-        <div>
-          <button onClick={this.hadleDeleteCard}>Delete This Card</button>
         </div>
       </div>
     );
