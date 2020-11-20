@@ -101,7 +101,9 @@ input {
 
 button {
   background-color: #9bd9f1;
-  /* color: aliceblue; */
+  border-width: 2px;
+  border-style: solid;
+  border-color: black; /* color: aliceblue; */
 }
 button:hover {
   cursor: pointer;
