@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box {
   display: flex;
+  align-items: flex-start;
+}
+
+.order {
+  display: block;
+  width: 150px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 1px solid black;
+  padding: 7px;
+  margin: 0.2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.inputArea > input {
+  height: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  width: 90%;
+  border: 1px solid black;
+  padding: 3px;
+  margin: 5px auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.nameBox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+li {
+  width: 100%;
+  white-space: normal;
+  list-style-type: none;
+}
+ul {
+  padding: 0;
+}
+button {
+  margin: 5px;
+}
+
+.editBox {
+  width: 100%;
 }
